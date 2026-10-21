@@ -1,43 +1,97 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#fff0f6">
-  <meta name="description" content="A little love letter and a sincere apology for Snehuu.">
-  <title>For Snehuu 💗</title>
+  <title>For Snehuu ❤️</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="hearts" aria-hidden="true" id="hearts"></div>
-  <main class="page">
-    <div class="sparkle" aria-hidden="true">✦　♡　✦</div>
-    <p class="eyebrow">A LITTLE NOTE FROM MY HEART</p>
-    <h1>I'm sorry,<br><span>Snehuu</span> 💗</h1>
-    <p class="intro">I know I hurt your feelings, and I never want to treat your heart carelessly.</p>
+  <div class="hearts" id="hearts" aria-hidden="true"></div>
 
-    <section class="letter" aria-labelledby="letter-title">
-      <div class="letter-top"><span>♡</span><span>open when you're ready</span><span>♡</span></div>
-      <h2 id="letter-title">A letter for you</h2>
-      <p>My Snehuu,</p>
-      <p>I'm truly sorry for hurting you. I know that saying “sorry” can't instantly undo how you felt, and I don't want to act like it should.</p>
-      <p>Your feelings matter to me. I should have been more thoughtful, listened better, and taken more care with the way my words and actions affected you.</p>
-      <p>I'm not asking you to forget it or to be okay before you're ready. I just want you to know that I'm taking this seriously, and I want to do better—not only say better things.</p>
-      <p>Whenever you're ready, I'd like to listen, understand what hurt you, and make things right in the ways I can. You deserve patience, honesty, and kindness from me.</p>
-      <p class="signoff">I'm sorry, Snehuu. You mean so much to me. ♡</p>
-      <div class="tiny-heart" aria-hidden="true">♥</div>
+  <!-- PASSWORD SCREEN -->
+  <main class="page" id="lockScreen">
+    <div class="big-heart">💗</div>
+    <p class="eyebrow">EK CHHOTASA SURPRISE</p>
+    <h1>Only for <span>Snehuu</span> 🥹</h1>
+    <p class="intro">Tujhyasathi kahitari special aahe...</p>
+
+    <form id="passwordForm" class="lock-card">
+      <label for="password">Aapla secret password tak na ❤️</label>
+      <input id="password" type="password"
+        placeholder="Enter password..." autocomplete="off"
+        required>
+      <button type="submit">Unlock my heart 💌</button>
+      <p id="passwordError" class="response" role="status"></p>
+    </form>
+  </main>
+
+  <!-- MAIN WEBSITE -->
+  <main class="page hidden" id="mainSite">
+    <div class="sparkle">✦ ♡ ✦</div>
+    <p class="eyebrow">FAKT TUJHYASATHI</p>
+    <h1>I'm sorry,<br><span>Snehuu</span> ❤️</h1>
+    <p class="intro">
+      Ekda ha chhotasa letter ughad na ga... 🥺
+    </p>
+
+    <!-- ENVELOPE -->
+    <section class="envelope-section">
+      <button class="envelope-button" id="envelopeBtn"
+        type="button" aria-expanded="false"
+        aria-controls="letter">
+        <span class="envelope">💌</span>
+        <span id="envelopeText">Tap kar na, Snehuu ❤️</span>
+      </button>
+
+      <!-- APOLOGY LETTER -->
+      <article class="letter hidden" id="letter">
+        <div class="letter-top">♡ EK LETTER TUJHYASATHI ♡</div>
+        
+<h2>Snehuudii ❤️🥹</h2>
+
+<p>
+  Snehuudii....sorry na babyy❤️🥺
+</p>
+
+<p>
+  Mala mahit ahe ki mi tula hurt kelay… ani honestly mala te bilkul changla vatat nahiye. Tula asa feel karvaycha navhta yrr mala.
+</p>
+
+<p>
+  Tu majhyasathi khup special ahe yrr. Fakt sorry bolun sagla thik hoil asa nahi, pnn mala kharach majhi chuk sudharaychi ahe.
+</p>
+
+<p class="signoff">
+  Plss maaf krun tak na tuzya hya chutiyala🥺🫶🏻
+</p>
+
+<div class="tiny-heart">♥</div>
+
+
+        
+      </article>
     </section>
 
     <section class="forgive">
-      <div class="mini-heart" aria-hidden="true">♡</div>
-      <h2>Can I try to make it right?</h2>
-      <p>No pressure to answer before you're ready. I just wanted to ask from my heart.</p>
-      <button id="forgiveBtn" type="button">Will you forgive me? 🥺</button>
-      <p class="response" id="response" role="status" aria-live="polite"></p>
+      <div class="mini-heart">♡</div>
+      <h2>Rag kami zala ka ga? 🥺</h2>
+      <p>
+        Tula vel hava asel tar ghe...
+        mi tujh aikayla ready ahe. ❤️
+      </p>
+      <button id="forgiveBtn" type="button">
+        Will you forgive me, Snehuu? 🥺
+      </button>
+      <p class="response" id="response" role="status"
+        aria-live="polite"></p>
     </section>
 
-    <footer>Made with love, and a genuinely sorry heart. ♡</footer>
+    <footer>I lobbee uhh. ❤️</footer>
   </main>
+
   <script src="script.js"></script>
 </body>
 </html>
