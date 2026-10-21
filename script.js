@@ -102,7 +102,7 @@ forgiveBtn.addEventListener("click", function () {
 
   if (clicked) {
     response.textContent =
-      "Thank you 😚😚😚😚❤️ " ;
+      "Thank you 😚😚😚❤️ " ;
 
     forgiveBtn.textContent = "I love uhh🤗";
     burstHearts();
