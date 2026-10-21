@@ -28,7 +28,7 @@ passwordForm.addEventListener("submit", function (event) {
     window.scrollTo(0, 0);
   } else {
     passwordError.textContent =
-      "Aree Snehuu, password chukla ga 🥺 Try again!";
+      "Aree Snehudii password chukla na 🦆🤦🏻‍♂️ Try again!";
     passwordInput.value = "";
     passwordInput.focus();
   }
@@ -102,14 +102,13 @@ forgiveBtn.addEventListener("click", function () {
 
   if (clicked) {
     response.textContent =
-      "Thank you ga, majha aiklyabaddal ❤️ " +
-      "Mi majhya actions madhun pan dakhven.";
+      "Thank you 😚😚😚😚❤️ " ;
 
-    forgiveBtn.textContent = "Ek mothi hug ghe na 🤗";
+    forgiveBtn.textContent = "I love uhh🤗";
     burstHearts();
   } else {
     response.textContent =
-      "Take your time ga Snehuu, mi tujh aikayla aahe. ❤️";
+      "❤️";
 
     forgiveBtn.textContent =
       "Will you forgive me, Snehuu? 🥺";
